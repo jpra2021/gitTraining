@@ -1,0 +1,17 @@
+why ??
+
+user@DESKTOP-SFH37B4 MINGW64 ~/Desktop/gitClass/mytest ((e4c951b...))
+$ git log --oneline --all
+091d78e (main) v3
+e4c951b (HEAD) v2
+1a7e6e8 first commit
+
+user@DESKTOP-SFH37B4 MINGW64 ~/Desktop/gitClass/mytest ((e4c951b...))
+$ git reset --hard e4c951b
+HEAD is now at e4c951b v2
+
+user@DESKTOP-SFH37B4 MINGW64 ~/Desktop/gitClass/mytest ((e4c951b...))
+$ git log --oneline --all
+091d78e (main) v3
+e4c951b (HEAD) v2
+1a7e6e8 first commit
